@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Montserrat:wght@100;300;400;500;600&display=swap');
+
+body {
+    background-color: #22333b;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-size: 5.5vw;
+    line-height: 1.2;
+    color: #eae0d5;
+    text-align: center;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: font-size 0.1s;
+}
+
+#title:hover {
+    font-size: 5.6vw;
+}
+
+#subtitle {
+    font-family: "Rubik Mono One", monospace;
+    color: #ddcdbb;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+#content {
+    color: #f6f3ee;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.question {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+label.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 1.5em;
+    gap: 1rem;
+    cursor: pointer;
+    width: 100%;
+    max-width: 500px;
+}
+
+input[type="checkbox"] {
+    height: 2em;
+    width: 2em;
+    accent-color: #ddcdbb;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color: #203038;
+    color: #3f5e6e;
+    text-align: center;
+}
+
+footer a {
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: var(--footer);
+}
+
+footer label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    position: inherit;
+    transform: translate(-50%);
+    bottom:1.5%
+}
